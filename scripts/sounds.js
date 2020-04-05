@@ -85,7 +85,7 @@ var sounds = {
     },
     stopSound : function(str, noStartOver)
     {
-        var sound = this.getSound(str);
+        /*var sound = this.getSound(str);
         if(sound !== undefined)
         {
             sound.loop = false;
@@ -100,7 +100,7 @@ var sounds = {
             {
                 console.log(e);
             }
-        } 
+        } */
     },
     getMainVolume : function()
     {
@@ -170,4 +170,5 @@ sounds.addSound("ninja_temple.mp3", "song");
 sounds.addSound("icy_slopes.mp3", "song");
 sounds.addSound("underground.mp3", "song");
 sounds.addSound("space.mp3", "song");
+
 
